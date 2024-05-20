@@ -33,6 +33,7 @@ puts "#{time[:that]} #{example[2]} #{example[1]} #{example[0]}#{time[:period]}"
 
 
 #Assignment 2
+#Array of hashes
 ghosts = [{:name => 'Inky', :age => 4, :loves => 'reindeers', :net_worth => 25},
           {:name => 'Pinky', :age => 5, :loves => 'garden tools', :net_worth => 14},
           {:name => 'Blinky', :age => 7, :loves => 'ninjas', :net_worth => 18.03},
@@ -63,7 +64,6 @@ dog_breeds['message'].each do |breeds, subbreeds|
     subbreeds.each do |subbreeds|
       puts "  * #{subbreeds}"
   end
-     # pp stands for pretty print.
 end
 end
 
